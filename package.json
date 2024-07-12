@@ -1,0 +1,21 @@
+{
+  "name": "enigma",
+  "version": "1.0.0",
+  "description": "Enigma is a lightweight nodeJS application to store environment variable securely and transfer though API. Very useful to update, pass to ECS and easy to manage. You can also run it to aws:lambda for production preferred and heroku for testing/sandbox env.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
